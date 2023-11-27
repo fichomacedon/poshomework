@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+.main {
+  padding: 0;
+  position: relative;
+  width: 600px;
+  height: 600px;
+  left: 600px;
+  top: 150px;
+}
+.one {
+  position: absolute;
+  bottom: 420px;
+  background-color: bisque;
+  width: 20%;
+  height: 30%;
+  border: 5px solid rgb(53, 24, 24);
+  display: inline-block;
+}
+.two {
+  position: absolute;
+  left: 120px;
+  background-color: red;
+  border: 5px solid rgb(53, 24, 24);
+  width: 75%;
+  height: 75%;
+  display: inline-block;
+}
+.three {
+  position: absolute;
+  top: 180px;
+  background-color: bisque;
+  width: 20%;
+  height: 45%;
+  border: 5px solid rgb(53, 24, 24);
+  border-width: 10px 5px 5px 5px;
+  display: inline-block;
+}
+.four {
+  position: absolute;
+  top: 446px;
+  background-color: lightskyblue;
+  width: 20%;
+  height: 20.9%;
+  border: 5px solid rgb(53, 24, 24);
+  border-width: 10px 5px 5px 5px;
+  display: inline-block;
+}
+.five {
+  position: absolute;
+  top: 446px;
+  left: 120px;
+  background-color: bisque;
+  width: 70%;
+  height: 20.8%;
+  border: 5px solid rgb(53, 24, 24);
+  border-width: 10px 5px 5px 5px;
+  display: inline-block;
+}
+.six {
+  position: absolute;
+  top: 446px;
+  left: 540px;
+  display: inline-block;
+
+  background-color: yellow;
+  border: 5px solid rgb(53, 24, 24);
+  border-width: 10px 5px 5px 5px;
+  width: 5%;
+  height: 11%;
+}
+.seven {
+  position: absolute;
+  top: 505px;
+  left: 540px;
+  display: inline-block;
+
+  background-color: yellow;
+  border: 5px solid rgb(53, 24, 24);
+  border-width: 10px 5px 5px 5px;
+  width: 5%;
+  height: 11%;
+}
